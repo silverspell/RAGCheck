@@ -1,0 +1,4 @@
+question,answer,context,ground_truth
+Yıllık izin süresi kaç gündür?,14 veya 20 gündür.,"1-5 yıl arası 14 gün 5 yıldan fazla olanlar 20 gün izin kullanır.","1-5 yıl arası 14 gün, 5 yıl üstü 20 gündür."
+Şirket arabası kimlere verilir?,Sadece saha satış personeline verilir.,Saha operasyon ve satış temsilcileri şirket aracı hakkına sahiptir.,Satış ve saha ekipleri araç alabilir.
+Eğitim bütçesi ne kadar?,Bütçe her yıl yönetim tarafından belirlenir.,Eğitim departmanı yıllık bütçesini her Ocak ayında revize eder.,Eğitim bütçesi yıllık olarak Ocak ayında belirlenir.

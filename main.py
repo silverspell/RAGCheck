@@ -97,17 +97,17 @@ def main():
     weakdf = result["weak_rows"]
     weakdf.head()
 
-    corr = plot_metric_correlation("test_scored.csv")
+    corr = plot_metric_correlation(out_path)
     print(corr)
 
     low_rows = drill_down_low_scores(
-        csv_path="test_scored.csv",
+        csv_path=out_path,
         threshold=2
     )
     print("\n===== LOW SCORE ROWS =====")
     print(low_rows.head())
 
-    actions = score_to_action_recommendations("test_scored.csv")
+    actions = score_to_action_recommendations(out_path)
     print("\n===== ACTION RECOMMENDATIONS =====")
     for a in actions["recommendations"]:
         print("\n❗", a["problem"])
