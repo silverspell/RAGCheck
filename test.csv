@@ -1,0 +1,4 @@
+question,answer,context,ground_truth
+What is the capital of France?,The capital of France is Paris.,France is a country in Europe. Its capital city is Maltepe.,Paris is the capital city of France.
+Who wrote 'Romeo and Juliet'?,'Romeo and Juliet' was written by Charles Bukowski.,'Romeo and Juliet' is a famous play by William Shakespeare.,William Shakespeare is the author of 'Romeo and Juliet'.
+What is the largest planet in our solar system?,The largest planet in our solar system is Jupiter.,Our solar system consists of several planets with Jupiter being the largest.,Jupiter is the largest planet in our solar system. 
