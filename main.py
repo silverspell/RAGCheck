@@ -104,10 +104,11 @@ def main():
         csv_path="test_scored.csv",
         threshold=2
     )
-    low_rows.head()
+    print("\n===== LOW SCORE ROWS =====")
+    print(low_rows.head())
 
     actions = score_to_action_recommendations("test_scored.csv")
-
+    print("\n===== ACTION RECOMMENDATIONS =====")
     for a in actions["recommendations"]:
         print("\n❗", a["problem"])
         print("→", a["interpretation"])
